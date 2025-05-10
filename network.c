@@ -7,7 +7,7 @@
 
 static struct task_struct *thread_client = NULL;
 static struct socket *sock = NULL;
-static char *ip = "192.168.100.2";
+static char *ip = "192.168.100.3";
 static int port = 4242;
 static char *greet_message = "Hello World! from kernel land\n";
 module_param(ip, charp, 0644);
